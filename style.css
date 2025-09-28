@@ -1,0 +1,264 @@
+@font-face {
+    font-family: standard;
+    src: url(/Bristle\ Radiant\ DEMO\ VERSION.otf);
+}
+@font-face {
+    font-family:abc;
+    src: url(/BodoniFLF-Bold.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(/Montserrat-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html,body{
+    height: 100%;
+    width: 100%;
+     /* background-color: rgb(242, 245, 245); */
+     background-color: rgb(238, 233, 231);
+}
+.header{
+    padding-top: 50px;
+    height: 250px;
+    width: full;
+    color: white;
+    background-color: rgb(23, 42, 53);
+    text-align: center;
+}
+.name{
+    font-family:fantasy;
+    font-size: 90px;
+    font-weight: 100;
+}
+.pos {
+    font-style: italic;
+    font-size: 20px;
+}
+.about {
+    background-color: white;
+    height:120px;
+    width: 1400px;
+    margin-left: 50px;
+    margin-top: 35px;
+    padding: 26px 30px;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.about p{
+    font-size: 13px;
+}
+.edu {
+    height: 200px;
+    width: 1400px;
+    background-color: lightblue;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 26px 200px;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-style: bold;
+}
+.edu .e1{
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-size:16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.edu .e2{
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-size:16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sk {
+    height: 350px;
+    width: 1400px;
+    background-color: rgb(238, 238, 177);
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 26px 200px;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-style: bold;
+}
+.sk .s1{
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 100;
+    font-size:17px;
+    font-family:b;
+    font-style: bold;
+}
+.sk .s2{
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 100;
+    font-size:17px;
+    font-family:b;
+    font-style: bold;
+}
+.sk .s3{
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 100;
+    font-size:17px;
+    font-family:b;
+    font-style: bold;
+}
+.sk .s4{
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 100;
+    font-size:17px;
+    font-family:b;
+    font-style: bold;
+}
+.p {
+    height: 280px;
+    width: 1400px;
+    background-color: rgb(241, 202, 241);
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 26px 200px;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-style: bold;
+}
+.p .p1{
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-size:16px;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.p .p2{
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-size:16px;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.p .p3{
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-size:16px;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.c {
+    height: 280px;
+    width: 1400px;
+    background-color: rgb(184, 233, 184);
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 26px 200px;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-style: bold;
+}
+.c .c1{
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-size:16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.c .c2{
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-size:16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.c .c3{
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-size:16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer {
+    padding-top: 35px;
+    height: 80px;
+    width: full;
+    color: white;
+    background-color: rgb(23, 42, 53);
+    text-align: center;
+}
+
